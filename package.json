@@ -1,0 +1,19 @@
+{
+  "name": "webhooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start ./src/app.js --name webhooks --time"
+  },
+  "keywords": [],
+  "author": {
+    "name": "yangss5",
+    "email": "yangss5@meicloud.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1"
+  }
+}
